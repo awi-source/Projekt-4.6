@@ -1,0 +1,15 @@
+$font-brand: 'Courgette', cursive;
+$font-main: 'Open Sans', sans-serif;
+$font-text: 'Zilla Slab', serif;
+
+$color-light: #ecf0f1;
+$color-dark: #34495e;
+$color-background: #95a5a6;
+
+.page-title {
+    font-family: $font-main;
+    color: red;
+}
+.subtitle {
+    color: blue;
+}
