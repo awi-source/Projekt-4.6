@@ -1,22 +1,124 @@
-.container {
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  line-height: 1.7;
+  font-family: "Zilla Slab", serif;
+}
+
+.hero {
   position: relative;
-  background-image: url("https://i.postimg.cc/NjBXg6bN/pexels-cyril-caiazzo-1581687.jpg");
+  width: 100%;
   height: 100vh;
   position: relative;
+  background-image: url("https://i.postimg.cc/NjBXg6bN/pexels-cyril-caiazzo-1581687.jpg");
   background-position: center center;
-  background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
   padding: 0;
+  border: 1px solid red;
+}
+
+.hero-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .page-title {
   font-family: "Open Sans", sans-serif;
-  color: red;
+  color: #ecf0f1;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px black;
 }
 
 .subtitle {
-  color: yellow;
+  color: #ecf0f1;
+  font-family: "Zilla Slab", serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px black;
 }
 
+.btn {
+  background-color: #f39c12;
+  color: #ecf0f1;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navbar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  border: 1px solid yellow;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: #f39c12;
+  font-family: "Courgette", cursive;
+  text-shadow: 2px 2px 5px black;
+  font-size: 24px;
+}
+
+ul {
+  list-style: none;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 1px solid green;
+}
+
+ul li {
+  text-transform: uppercase;
+  border: 1px solid blue;
+  margin-right: 20px;
+  text-shadow: 2px 2px 5px black;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-style: "Open Sans", sans-serif;
+  color: #34495e;
+  font-size: 26px;
+}
+
+.description {
+  font-family: "Zilla Slab", serif;
+  color: #34495e;
+}
+
+.fas {
+  color: #f39c12;
+  font-size: 26px;
+  border: 4px solid #f39c12;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.portfolio {
+  background: #95a5a6;
+}
+
+.col-4 img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
 /*# sourceMappingURL=style.css.map */
