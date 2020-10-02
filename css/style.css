@@ -6,7 +6,7 @@ body {
   margin: 0;
   text-align: center;
   line-height: 1.7;
-  font-family: "Zilla Slab", serif;
+  font-family: "Secular One", sans-serif;
 }
 
 .hero {
@@ -19,7 +19,6 @@ body {
   background-size: cover;
   margin: 0;
   padding: 0;
-  border: 1px solid red;
 }
 
 .hero-inner {
@@ -31,15 +30,15 @@ body {
 }
 
 .page-title {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Bree Serif", serif;
   color: #ecf0f1;
-  font-size: 30px;
+  font-size: 38px;
   text-shadow: 2px 2px 5px black;
 }
 
 .subtitle {
   color: #ecf0f1;
-  font-family: "Zilla Slab", serif;
+  font-family: "Secular One", sans-serif;
   font-size: 36px;
   text-transform: uppercase;
   text-shadow: 2px 2px 5px black;
@@ -60,13 +59,12 @@ body {
       justify-content: space-between;
   -ms-flex-align: center;
       align-items: center;
-  border: 1px solid yellow;
 }
 
 .navbar-brand {
   text-decoration: none;
   color: #f39c12;
-  font-family: "Courgette", cursive;
+  font-family: "Racing Sans One", cursive;
   text-shadow: 2px 2px 5px black;
   font-size: 24px;
 }
@@ -77,12 +75,10 @@ ul {
   display: inline-flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  border: 1px solid green;
 }
 
 ul li {
   text-transform: uppercase;
-  border: 1px solid blue;
   margin-right: 20px;
   text-shadow: 2px 2px 5px black;
 }
@@ -94,31 +90,69 @@ ul li a {
 
 .section-title {
   text-transform: uppercase;
-  font-style: "Open Sans", sans-serif;
+  font-style: "Bree Serif", serif;
   color: #34495e;
-  font-size: 26px;
+  font-size: 30px;
 }
 
 .description {
-  font-family: "Zilla Slab", serif;
+  font-family: "Secular One", sans-serif;
   color: #34495e;
+  font-size: 24px;
 }
 
 .fas {
   color: #f39c12;
   font-size: 26px;
-  border: 4px solid #f39c12;
+  border: 3px solid #f39c12;
   border-radius: 50%;
   padding: 20px;
 }
 
-.portfolio {
-  background: #95a5a6;
+.services {
+  margin: auto;
 }
 
-.col-4 img {
+.services h4 {
+  font-family: "Secular One", sans-serif;
+  font-size: 20px;
+}
+
+.services p {
+  color: #2c3e50;
+  font-family: "Bree Serif", serif;
+  font-size: 18px;
+}
+
+.services .description {
+  font-family: "Secular One", sans-serif;
+  color: #34495e;
+  font-size: 24px;
+}
+
+.portfolio {
+  background: #95a5a6;
+  padding-top: 20px;
+}
+
+figure img {
   width: 100%;
   height: 300px;
   object-fit: cover;
+}
+
+footer ul li {
+  font-size: 0;
+}
+
+footer ul li a i {
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  color: #ecf0f1;
+  padding: 10px;
+  border: 1px solid #34495e;
+  border-radius: 50%;
+  background: #34495e;
 }
 /*# sourceMappingURL=style.css.map */
