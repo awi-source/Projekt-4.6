@@ -64,15 +64,17 @@ body {
 .navbar-brand {
   text-decoration: none;
   color: #f39c12;
-  font-family: "Racing Sans One", cursive;
+  font-family: "Lobster", cursive;
   text-shadow: 2px 2px 5px black;
-  font-size: 24px;
+  font-size: 34px;
 }
 
 ul {
   list-style: none;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -135,6 +137,14 @@ ul li a {
   padding-top: 20px;
 }
 
+.portfolio h5 {
+  font-size: 22px;
+}
+
+.portfolio p {
+  font-size: 20px;
+}
+
 figure img {
   width: 100%;
   height: 300px;
@@ -154,5 +164,6 @@ footer ul li a i {
   border: 1px solid #34495e;
   border-radius: 50%;
   background: #34495e;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */

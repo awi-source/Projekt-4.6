@@ -1,4 +1,4 @@
-$font-brand: 'Racing Sans One', cursive;
+$font-brand: 'Lobster', cursive;
 $font-main: 'Bree Serif', serif;
 $font-text: 'Secular One', sans-serif;
 
@@ -66,11 +66,12 @@ body {
     color: $color-icon;
     font-family: $font-brand;
     text-shadow: 2px 2px 5px black;
-    font-size: 24px;
+    font-size: 34px;
 }
 ul {
     list-style: none;
     display: inline-flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     li {
         text-transform: uppercase;
@@ -120,6 +121,12 @@ ul {
 .portfolio {
     background: $color-background;
     padding-top: 20px;
+    h5 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 20px;
+    }
 }
 
 figure img {
@@ -141,6 +148,7 @@ footer ul {
                 border: 1px solid $color-dark;
                 border-radius: 50%;
                 background: $color-dark;
+                margin-top: 10px;
             }    
         }
     }    
